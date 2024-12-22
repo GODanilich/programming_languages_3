@@ -23,7 +23,7 @@ var (
 func main() {
 	// Проверка корректности аргументов при запуске
 	if len(os.Args) < 2 {
-		fmt.Println("Запуск: go run main.go [server|client] [address:port]")
+		fmt.Println("Запуск: go run lab3.go [server|client] [address:port]")
 		return
 	}
 
